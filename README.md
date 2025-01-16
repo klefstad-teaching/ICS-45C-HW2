@@ -2,14 +2,14 @@
 
 ## Getting the assignment
 
-1. Accept the assignment by click the link in canvas
-2. Once you accept the invite you will reach a page that says "You're ready to go"
-3. Clik the url from that page that looks similar to this: `https://github.com/klefstad-teaching/ics-45c-hw2-<GitHubUsername>`, it may take a bit of time for the repo to be ready.
-4. There will be a green `<> Code` Button on the top right, click that and then click the middle tab `SSH`
+1. Accept the assignment by clicking the link in Canvas
+2. Once you accept the invite, you will reach a page that says "You're ready to go"
+3. Click the URL from that page that looks similar to this: `https://github.com/klefstad-teaching/ics-45c-hw2-<YourGitHubUsername>`. It may take a bit of time for the repo to be ready.
+4. There will be a green `<> Code` Button on the top right, click that, and then click the middle tab `SSH`
 5. Copy that link
 6. Go to your hub and go into the ICS45C folder, and open up the terminal and type in the following command:
 ```bash
-git clone git@github.com:klefstad-teaching/ics-45c-hw2-<GitHubUserName>.git HW2
+git clone git@github.com:klefstad-teaching/ics-45c-hw2-<YourGitHubUserName>.git HW2
 ```
 7. Go to VSCode and open up the `HW2` Folder
 
@@ -100,7 +100,7 @@ coins_simple.cpp screenshot
 
 **Be sure to implement ONE THING AT A TIME and TEST IT thoroughly, using the GTest framework, following these Steps of Development below.**
 
-Steps of Development for coins_simple.cpp
+### Steps of Development for coins_simple.cpp
 
 Start by writing and using a small subset of the functionality of class `Coins`.
 
@@ -173,7 +173,7 @@ All the declarations for `word_count` are in `word_count.hpp`, and all the defin
 
 **Be sure to implement ONE THING AT A TIME and TEST IT thoroughly, using the GTest framework provided, following these Steps of Development. During development, you should add some of your own tests to `student_gtests.cpp` - see below!**
 
-Steps of Development for word_count
+### Steps of Development for word_count
 
 1. Define a map of word frequencies. The key is the word, and the value is the `int `counter for the word frequency. The counters will all be initialized to zero when you create the map.
 2. Define a set of stop words. Insert each word from the stopwords file into this `set` as part of your initialization. Remember that everything is case insensitive!
@@ -181,11 +181,11 @@ Steps of Development for word_count
 4. When finished counting the words in the input file, write the words with their associated frequency count (one per line, in the ascending alphabetical order A to Z) to the output file. Traversing the `map` using a `for` loop iterator will automatically visit each entry in ascending alphabetical order by key, so no sorting is necessary when using map. Use the following format of your output with no extra newlines.
     1. `<Word><space><Count><newline>`
    
-Sample input files
+### Sample input files
  - [sample_doc.txt](https://ics.uci.edu/~klefstad/public/45c/sample_doc.txt)
  - [stopwords.txt](https://ics.uci.edu/~klefstad/public/45c/stopwords)
 
-Sample output:
+### Sample output:
 ```
 apple 7
 baker 3
@@ -277,13 +277,13 @@ all provided tests, congratulations! You are now ready to [submit](#submission) 
 
 ## Submission
 
-As with previous submissions, you can submit via `GitHub` by:
+As with previous submissions, you can submit via `GitHub` by the following steps:
 
 1. `git add .`
 2. `git commit -a -m "Commit Message Here"`
 3. `git push --set-upstream origin main`
 
-your changes to your private repository, and then submitting the `hw2` branch to `Gradescope`.
+to push your changes to your private GitHub repository, and then submit the `hw2` branch to `Gradescope`.
 
 ## Credit
 
