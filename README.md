@@ -16,7 +16,6 @@ git clone git@github.com:klefstad-teaching/ics-45c-hw2-<GitHubUserName>.git HW2
 ## Directory Structure
 
 ```bash
-.
 ├── CMakeLists.txt
 ├── CMakePresets.json
 ├── gtest
