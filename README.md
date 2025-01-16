@@ -221,7 +221,9 @@ Screenshot of student_gtests.cpp
 
 The grading for these tests works as follows: we run your tests against one correct implementation and several buggy implementations. In order to get full points, **all** of your tests must **pass on the correct implementation**, and **at least one** of your tests must **fail on every buggy implementation**. On the autograder this will show up as "`* (student_gtests_correct)`" and "`* (student_gtests_buggy_…)`" respectively.
 
-> 💡For more detail and an **example** of how to write GTests, watch this video (can start around 8:00). Really! Watch the [video](https://www.youtube.com/watch?v=_OHE33s7EKw)! One important thing to learn is that a good test will reveal bugs in your code by failing when the tested code has an error, and by succeeding when your code is correct.
+In other words, “failing” on the buggy implementation means that your test **correctly identifies** the buggy error in the code. If your tests don’t produce a “failure” on the buggy code, you lose points.
+
+> 💡For more detail and an **example** of how to write GTests, watch this [video](https://www.youtube.com/watch?v=_OHE33s7EKw) (you can start around 8:00). Really! Watch the video! One important thing to learn is that a good test will reveal bugs in your code by failing when the tested code has an error, and by succeeding when the tested code is correct.
 
 ## How to Build, Submit, and Grade the programs
 
