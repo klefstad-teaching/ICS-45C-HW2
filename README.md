@@ -5,7 +5,7 @@
 1. Accept the assignment by clicking the link in Canvas
 2. Once you accept the invite, you will reach a page that says "You're ready to go"
 3. Click the URL from that page that looks similar to this: `https://github.com/klefstad-teaching/ics-45c-hw2-<YourGitHubUsername>`. It may take a bit of time for the repo to be ready.
-4. There will be a green `<> Code` Button on the top right, click that, and then click the middle tab `SSH`
+4. Click the green `<> Code` Button on the top right, and then click the middle tab `SSH`
 5. Copy that link
 6. Go to your hub and go into the ICS45C folder, and open up the terminal and type in the following command:
 ```bash
